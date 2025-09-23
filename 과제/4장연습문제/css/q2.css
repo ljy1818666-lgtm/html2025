@@ -1,0 +1,36 @@
+@charset "utf-8";
+#cont{
+    width: 650px;
+    margin: 0 auto;
+    padding: 5px;
+}
+#check{
+    width: 640px;
+    border: 1px solid #ccc;
+}
+h1{
+    width: 640px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-size: 1em;
+    line-height: 40px;
+    padding: 5px;
+}
+h2{
+    color: #ff0000;
+    font-size: 1.5em;
+    text-align: center;
+}
+p{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    line-height : 2em;
+}
+.accent{
+    color: #00f;
+}
+.smalltext{
+    font-size: 0.7em;
+}

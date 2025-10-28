@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: row;
+    width: 700px; height: 250px;
+    border: 1px solid #222;
+    margin-bottom: 30px;
+}
+.box{
+    padding: 5px 45px;
+    margin: 5px;
+    width: 80px;
+}
+.box:nth-child(1){height: 100px;}
+.box:nth-child(2){height: 50px;}
+.box:nth-child(3){height: 150px;}
+.box:nth-child(odd){
+    background-color: cornflowerblue;
+}
+.box:nth-child(even){
+    background-color: rgb(242, 156, 175);
+}
+#opt1{
+    justify-content: baseline;
+}
